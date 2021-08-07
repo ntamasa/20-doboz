@@ -1,0 +1,30 @@
+.container {
+    width: 100%;
+}
+.blue , .red-purple {
+    border: 2px solid rgb(112, 167, 238);
+    font-size: 250px;
+    padding: 30px;
+}
+.blue {
+    margin-bottom: 20px;
+}
+.red-purple {
+    background-color: coral;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: square;
+    margin: -120px 0px -100px 175px;
+}
+ul li {
+    padding: 0;
+    margin: 0;
+}
+.red-purple ul li {
+    color: purple;
+}
+.blue ul li {
+    color: rgb(112, 167, 238)
+}
